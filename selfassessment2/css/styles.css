@@ -1,0 +1,98 @@
+.nopadding{
+  padding: 0px;
+}
+.nomargin{
+    margin: 0px;
+  }
+body{
+  margin: 0px;
+  padding: 0px;
+  width: auto;
+}
+#box-wrapper{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.cover{
+  width: 100%;
+  height:450px;
+  background-color: blue;
+}
+#header{
+width: inherit;
+height: inherit;
+background-image:url(../assets/backgrounds/landing.jpg);
+background-repeat: no-repeat;
+background-size:auto;;
+background-position: center;
+}
+.logo{
+  margin:auto;
+  position: relative;
+  width:50%;
+  height:284px;
+  text-align: center;
+}
+img.icon{
+  text-align: center;
+  padding:10px 0 0 0;
+  min-width: 210px;
+  min-height: 210px;
+  margin: 0 auto;
+}
+.title{
+    padding-top: 20px;
+    width: 68%;
+    text-align: center;
+    font-family: 'Scope One';
+    color: white;
+    margin: 0 auto;
+}
+.title h1{
+  margin-top: 20px;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 36px;
+}
+span{
+  font-weight: bold;
+}
+.row_two{
+  padding: 0px;
+  margin: 0px;
+  height: 155px;
+}
+.happy-hour{
+    background: #d8d8d8;
+    min-height: 101.2px;
+    color: #454545;
+    width:100%;
+}
+.party-time{
+    background: #F15A29;
+    min-height: 101.2px;
+    color: white;
+    width: 100%
+
+  }
+.happy-hour>h2,.party-time>h2{
+  font-family: 'Scope One';
+  text-align: center;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  line-height: 101.2px;
+}
+img .breakfast{
+  position: relative;
+  width: 100%;
+
+}
+h2{
+  position: absolute;
+  padding: 0px;
+  margin: -90px;
+  width: 100%
+}
