@@ -258,6 +258,10 @@ h1{
     padding-right: 50px;
     text-align: right;
 }
+.food-drink h2{
+    margin: 0px;
+    font-weight: bold;
+}
 
 .food-drink button{
     color: #F15A29;
@@ -281,7 +285,7 @@ h1{
     width: 100%;
     height: 100%;
     background-size: cover;
-    min-height: 500px;
+    
     display: flex;
 }
 
@@ -310,6 +314,10 @@ ul .nav .nav-tabs{
     text-align: center;
     width: 25%;
     border: 0px;
+}
+td span.glyphicon {
+    color: #F15A29; 
+    padding-top:100px  
 }
 
 li a:active{
@@ -421,15 +429,116 @@ div .clear{
 
 /*End of Footer*/
 
-/* Small devices (tablets, 768px and up) sm */
-@media (min-width: 768px) and (max-width: 991px){
-  .col-sm-6 {
-  width: 50%;
-  min-height: 155px;
-  background-size: cover;
-  }
+/*Medium devices (desktops, 992px and up) md */
+@media (min-width:992px) and (max-width:1200px){
+   .page2{
+    padding:75px 100px 75px 100px;
+    overflow: auto;
+    }
+    .menu-tab{
+    padding: 0px 100px 0px 100px;
+    border: 0pt;
+    margin: auto;
+    }
+    .testimony{
+    padding: 75px 100px 75px 100px;
 }
-@media()
+}
+
+/* Small devices (tablets, 768px and up) sm */
+@media (min-width: 768px) and (max-width: 992px){
+    /*Page One*/
+    .col-sm-6 {
+    width: 50%;
+    min-height: 155px;
+    background-size: cover;
+    }
+    
+    /*Page Two*/
+    .page2{
+    padding:50px 20px 50px 20px;
+    overflow: auto;
+    }
+    
+    /*Page Three*/
+    .page3 {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    }
+    .menu-tab{
+    padding: 0px 70px 0px 70px;
+    border: 0pt;
+    margin: auto;
+    }
+    td span.glyphicon {
+    color: #F15A29; 
+    padding-top: 80px; 
+    }
+    
+    /*Page Four*/
+    .testimony{
+    padding: 75px 80px 75px 50px;
+    }
+    
+    
+}
+@media(max-width:768px){
+    .caption{
+    width: 100%;
+    }
+    h1{
+    margin-top: 20px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 28px;
+    padding-bottom: 10px;
+    }
+    
+    /*Page Two*/
+    .page2{
+    padding:50px 50px 50px 50px;
+    overflow: auto;
+    }
+    .fast-food-content h2{
+    margin-top: 200px;
+    font-weight: bold;
+    }
+    .fast-food-content{
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+    .drinks-content{
+    padding-right: 0px;
+    text-align: left;
+    padding: 0px;
+    }
+    .drinks-img{
+    margin-top: 50px;
+    }
+    
+    /*Page Three*/
+     .page3 {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    }
+    .menu-tab{
+    padding: 0px 10px 0px 10px;
+    border: 0pt;
+    margin: auto;
+    font-size: 0.8em;
+    }
+    td span.glyphicon {
+    color: #F15A29; 
+    padding-top: 20px; 
+    }
+    
+    /*Page Four*/
+    .testimony{
+    padding: 55px 10px 55px 10px;
+    }
+}
 
 /**End of Landing Page**/
 
