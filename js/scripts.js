@@ -1,4 +1,4 @@
-$('.Count').each(function () {
+$('.Count').each(function(){
   var $this = $(this);
   jQuery({ Counter: 0 }).animate({ Counter: $this.text() }, {
     duration: 1000,
