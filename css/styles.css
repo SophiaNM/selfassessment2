@@ -15,26 +15,73 @@ html, body{
     height: 100%;
 }
 
-/**
-.navbar-default .navbar-toggle {
-    border-color: #ddd;
-    display: block;
+
+/*Navigation Bar*/
+
+/*styling open close button*/
+div.button {
+	display:inline;
+	position:absolute;
+	top:6px;
+	z-index:999;
+	font-size:30px;
+    text-decoration: none;
+    padding: 20px
 }
-.navbar-default {
-  background: inherit;
-  border: 0pt;
-  border-color: transparent;
+
+.button a {
+	text-decoration:none;
+    color: #fff;
 }
-.navigation{
-  width:100%auto;
-  height:100%auto;
-  display:block;
-  margin: 0 auto;
-  text-align: center;
-  opacity:1;
-  visibility: visible;
+
+/*overlay*/
+.overlay {
+	display:none;
+	position:fixed;
+	top:0;
+	height:100%;
+	width:100%;
+	background:#F15A29;
+    opacity: 0.95;
+	overflow:auto;
+	z-index:99;
 }
-**/
+
+.wrap {
+	max-width:90%;
+	margin:0 auto;
+}
+
+.wrap-nav {
+	padding:150px 0px 100px;
+}
+
+.wrap ul.wrap-nav li {
+	font-size:20px;
+	display:block;
+    text-align: center;
+    margin: 0 auto;
+	vertical-align:top;
+	width:24%;
+	position:relative;
+    color: #000;
+}
+
+.wrap ul.wrap-nav li a {
+    font-size: 1.6em;
+	color: #000;
+	display:block;
+	padding:8px 0;
+	text-decoration:none;
+	transition-property:all .2s linear 0s;
+	-moz-transition:all .2s linear 0s;
+	-webkit-transition:all .2s linear 0s;
+	-o-transition:all .2s linear 0s;
+}
+
+.wrap ul.wrap-nav li a:hover {
+	color:#f0f0f0;
+}
 
 /**LANDING PAGE**/
 .landing-page{
@@ -57,7 +104,6 @@ html, body{
     margin: 0px;
     padding: 0px;
 }
-
 
 /**Header Section**/
 
