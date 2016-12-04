@@ -329,6 +329,7 @@ td p{
   padding: 20px;
   text-align: center;
 }
+
 .about-menu{
   border-left: 2px solid #E3E3E3;
 }
@@ -348,6 +349,67 @@ td p{
 .subscribe .row{
   margin: auto;
 }
+
+div #mc_embed_signup{
+    background: transparent;
+}
+
+label h4{
+    width: 500px;
+    font-size: 1.6em;
+
+}
+div #mc_embed_signup .button {
+    outline: none;
+    background: #F15A29;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 1px solid #F15A29;
+    width: 180px;
+    margin-left: 20px;
+    border-radius: 2px;
+    font-size: 1.1em;
+    padding: 8px;
+}
+#mce-EMAIL{
+    width: 300px;
+    opacity: 0.4;
+    text-decoration-color:#fff;
+    padding: 8px;
+    border-radius: 2px;
+}
+#mce-Email placeholder{
+    color: #fff;
+}
+
+div .clear{
+    display: inline;
+
+}
+::-webkit-input-placeholder{
+    font-size: 1.1em;
+}
+
+/**Footer**/
+.footer{
+    background-color:#F15A29;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+.footer img{
+    padding-right:10px;
+    padding-left: ;
+}
+#footer-head{
+   font-size: 1.3em;   
+}
+#footer-head h3{
+    font-size: 1.5em;
+    padding-right: 10px;
+}
+
+
 
 /* Small devices (tablets, 768px and up) sm */
 @media (min-width: 768px) and (max-width: 991px){

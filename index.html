@@ -20,7 +20,7 @@
       <div id="box-wrapper">
         <div class="cover container">
           <div id="header" class=" row_one">
-          <div class="title">
+            <div class="title">
               <div class="logo">
                 <img class="img-responsive icon" src="assets/logoBig.png"  max-width="284px">
               </div>
@@ -32,12 +32,46 @@
           </div>
           <div class="menu">
             <div class="row_two">
-              <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 nopadding time">
+              <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 nopadding happyhour-partytime">
                 <div class="happy-hour">
-                  <h2>Happy Hour</h2>
+                    <h2><a href="#" data-toggle="modal" data-target="#happy-modal">Happy Hour</a></h2>
+                    <div class="modal fade" id="happy-modal" role="dialog">
+                        <div class="modal-dialog">
+                        <!--Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4>Happy Hour</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="assets/menu/happy-hour.jpg">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="party-time">
-                  <h2>Party Time</h2>
+                    <h2><a href="#" data-toggle="modal" data-target="#party-modal">Party Time</a></h2>
+                    <div class="modal fade" id="party-modal" role="dialog">
+                        <div class="modal-dialog">
+                        <!--Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4>Party Time</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="assets/menu/party-time2.jpg">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 nopadding breakfast">
@@ -83,11 +117,11 @@
           </div>
         </div>
 
-        <div class="container-fluid">
+        <div class="container-fluid drinks">
           <div class="row">
             <div class="col-md-6 drinks-content">
               <h2>Drinks</h2>
-              <h4>We also produce delicious drinks</h4>
+                <h4>We also produce delicious drinks</h4>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
@@ -153,7 +187,8 @@
           <div class="col-md-5 about-menu">
             <h4>About Menu</h4>
             <p>
-              We are a little team of 7 members. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              We are a little team of<span class="Count"> <strong> 7
+                </strong> </span> members. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
           </div>
         </div>
@@ -166,13 +201,57 @@
   <section class="page5">
     <div class="subscribe">
       <div class="container-fluid row ">
-        <h4>Get our daily food items delivered to your email</h4>
+        <!-- Begin MailChimp Signup Form -->
+        <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+        <style type="text/css">
+            #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+            /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+               We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+        </style>
+        <div id="mc_embed_signup">
+        <form action="//twitter.us14.list-manage.com/subscribe/post?u=9c8abcdd2b3fecff4750fa91e&amp;id=3eeb80923c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+                <div>
+                    <label for="mce-EMAIL"><h4>Get our daily food items delivered to your email</h4></label>
+                </div>
+            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Your email" required>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_9c8abcdd2b3fecff4750fa91e_3eeb80923c" tabindex="-1" value=""></div>
+            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+            </div>
+        </form>
+        </div>
+
+<!--End mc_embed_signup-->
+          
+         
+          
+     
+          
+
+
       </div>
     </div>
   </section>
 <!--End of Page Five-->
 
+
 <!--Footer-->
+  <section>
+      <div class="footer">
+          <div class="container-fluid">
+              <div class="footer-content">
+                  <div id="footer-head">
+                      <h3><img src="assets/footerlogos/logo_white.png" alt="">MENU</h3>
+                    <p>That's What We Are</p>
+                 </div>
+              <img src="assets/footerlogos/facebook.png" alt=""> <img src="assets/footerlogos/twitter.png" alt=""> <img src="assets/footerlogos/pinterest.png" alt=""> <br/><br/>
+              <p>2016 Menu Restaurant</p>
+              </div>
+             
+          </div>
+      </div>
+  </section>
 <!--End of Footer-->
 
 
