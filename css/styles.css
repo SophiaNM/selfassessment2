@@ -272,6 +272,9 @@ h1{
     color: #fff;
 }
 
+/*End Landing Page*/
+
+
 
 /*Page Two*/
 .page2{
@@ -324,6 +327,8 @@ h1{
     background: none;
     border: 1px solid #F15A29;
 }
+/*End Page Two*/
+
 
 /*Page Three*/
 .page3 {
@@ -376,6 +381,7 @@ td p{
     text-align: center;
     line-height: 2px;
 }
+/*End Page Three*/
 
 
 /*Page Four*/
@@ -392,8 +398,10 @@ td p{
 .about-menu{
     border-left: 2px solid #E3E3E3;
 }
+/*End Page Four*/
 
-/**Begin Page Five**/
+
+/*Begin Page Five*/
 .subscribe{
     background: url(../assets/backgrounds/subscribe.jpg) no-repeat center fixed;
     width: 100%;
@@ -451,6 +459,7 @@ div .clear{
 }
 /*End page five*/
 
+
 /* Begin Footer*/
 .footer{
     background-color:#F15A29;
@@ -472,28 +481,35 @@ div .clear{
     font-size: 1.5em;
     padding-right: 10px;
 }
-
 /*End of Footer*/
+
 
 /*Medium devices (desktops, 992px and up) md */
 @media (min-width:992px) and (max-width:1200px){
+    
+    /*Page Two*/
    .page2{
     padding:75px 100px 75px 100px;
     overflow: auto;
     }
+    
+    /*Page Three*/
     .menu-tab{
     padding: 0px 100px 0px 100px;
     border: 0pt;
     margin: auto;
     }
+    
+    /*Page Four*/
     .testimony{
     padding: 75px 100px 75px 100px;
-}
+    }
 }
 
 /* Small devices (tablets, 768px and up) sm */
 @media (min-width: 768px) and (max-width: 992px){
-    /*Page One*/
+    
+    /*Landing Page*/
     .col-sm-6 {
     width: 50%;
     min-height: 155px;
@@ -525,11 +541,13 @@ div .clear{
     /*Page Four*/
     .testimony{
     padding: 75px 80px 75px 50px;
-    }
-    
-    
+    }  
 }
+
+/*Extra small devices(mobile phones) xs*/
 @media(max-width:768px){
+    
+    /*Landing Page*/
     .caption{
     width: 100%;
     }
@@ -586,6 +604,3 @@ div .clear{
     }
 }
 
-/**End of Landing Page**/
-
-/**PAGE TWO**/
