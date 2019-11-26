@@ -1,5 +1,5 @@
 #   The Restaurant
-The Restaurant is a self-assessment project done at Moringa School. The student is required to recreate [core.jpg](https://github.com/SophiaNM/selfassessment2/blob/master/core.jpg) into a website using the Twitter Bootstrap Framework.
+The restaurant is a self-assessment moringa interview project. The requirement is to recreate [core.jpg](https://github.com/SophiaNM/selfassessment2/blob/master/core.jpg) into a website using the Twitter Bootstrap Framework.
 
 
 
@@ -29,15 +29,8 @@ View the live website [here](https://sophianm.github.io/selfassessment2)
 * Integrated Google Analytics for tracking
 * Overall site responsivity for mobile phone devices - still in development
 
-
-## License
----------
-### MIT License
-
-Copyright (c) [2016] [Sophia Njeri Murage]
-
 ### Technologies
 Uses latest version of html i.e. **HTML5**
 
 ### Contact Information
-njerimurage92@gmail.com
+njerimurage92@gmail.com | snmurage@outlook.com
