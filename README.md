@@ -29,8 +29,5 @@ View the live website [here](https://sophianm.github.io/selfassessment2)
 * Integrated Google Analytics for tracking
 * Overall site responsivity for mobile phone devices - still in development
 
-### Technologies
-Uses latest version of html i.e. **HTML5**
-
 ### Contact Information
 njerimurage92@gmail.com | snmurage@outlook.com
